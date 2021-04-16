@@ -1,0 +1,30 @@
+@charset "ISO-8859-1";
+
+* {
+  box-sizing: border-box;
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 30.33%;
+  margin : 20px;
+  padding: 10px;
+  height: 390px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 125px;
+    width: 150px;
+
+}
